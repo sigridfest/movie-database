@@ -1,0 +1,32 @@
+.title{
+    color: #BFAE48;
+    -webkit-text-stroke-width: 2.6px;
+    -webkit-text-stroke-color: black;  
+    font-size: 3.6em;
+    font-weight: 660;
+    text-decoration: none;
+}
+
+.title:hover {color: black}
+
+.username{
+    color: #BFAE48;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;  
+    font-size: 0.7;
+    font-weight: 700;
+}
+
+.userIcon{
+    text-decoration: none;
+}
+
+.username:hover{color: black}
+
+.GenreLink{
+    color: rgb(61, 61, 61);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;  
+    font-size: 1.6em;
+    text-decoration: none;
+}

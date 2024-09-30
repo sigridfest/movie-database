@@ -1,0 +1,74 @@
+.yearContainer{
+    padding-left: 3vw;
+    font-size: 0.8em;
+    color: #BFAE48;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: black;  
+}
+
+.actorsContainer{
+    padding-left: 3vw;
+    color: #D6D6D6;
+}
+
+.sections{
+    padding-left: 3vw;
+    font-size: 1.1em;
+    color: #BFAE48;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: black; 
+}
+
+.genresContainer{
+    padding-left: 3vw;
+    color: #D6D6D6;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #707070;
+    box-shadow: 7px 7px 12px #666666;
+    margin: 6vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer {
+    font-size: 1.5em;
+    padding-left: 3vw;
+    color: #BFAE48;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;  
+
+}
+
+.summaryContainer {
+    padding-left: 3vw;
+    color: #D6D6D6;
+
+}
+
+.ratingContainer {
+    padding-left: 3vw;
+    color: #BFAE48;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: black;  
+
+}
+
+.image {
+    width: fit-content;
+    justify-self: end;
+}
+
+.img {
+    align-self: flex-end;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+

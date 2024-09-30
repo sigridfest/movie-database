@@ -1,0 +1,59 @@
+.userContainer{
+    display: grid;
+    grid-template-columns: 10% 10%;
+    justify-content: center;
+}
+
+.cardUserContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.userContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3{
+    color: #BFAE48;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;  
+    font-size: 1.5em;
+}
+.passwordHide{
+    text-decoration: line-through;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    /* Prevent highlights to reveal password */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+            user-select: none; /* Works in Chrome, edge, opera and Firefox */
+ 
+}
+.userNameP, .passwordShow{
+    font-style: italic;
+}
+.favorites{
+    text-decoration:underline;
+}
+.buttons {
+    padding-top: 4vh;
+    margin: 1vh;
+}
+
+.pageButton{
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+  }

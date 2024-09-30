@@ -1,0 +1,11 @@
+.userTitles{
+    color: #BFAE48;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;  
+    font-size: 2em;
+}
+
+.buttons {
+    padding-top: 4vh;
+    margin: 1vh;
+}
